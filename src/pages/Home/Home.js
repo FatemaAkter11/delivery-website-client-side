@@ -11,7 +11,7 @@ const Home = () => {
                 <Banner></Banner>
                 {/* services area*/}
                 <div className="row">
-                    <h1 className="fw-bold fs-1 mb-5">Our Offerings</h1>
+                    <h1 className="fw-bold fs-1 mb-5 mt-3">Our Services</h1>
                     <div className="col-md-12">
                         {/* service data load */}
                         <div className="row ms-4">
