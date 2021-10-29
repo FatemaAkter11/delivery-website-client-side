@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import './Home.css';
+import detail from '../../images/home.jpg';
 
 const Home = () => {
     return (
@@ -24,22 +25,23 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* dr area */}
+                {/* website details area */}
                 <div className="row my-5 mx-auto">
-                    <div className="col-md-6">
-                        {/* <img src={dr} alt="" /> */}
+                    <div className="col-md-6 detail">
+                        <img src={detail} alt="" />
                     </div>
                     <div className="col-md-5 mt-5">
-                        <h1 className="text-primary fw-bold">Dr. Catherine P. Phillippi</h1>
-                        <small>Dr. Phillippi joined TrustCare in 2021. She earned the Bachelor of Science in Biology from Mississippi College in 1994 and her medical degree from the University of Mississippi School of Medicine in 1999. Dr. Phillippi completed her pediatric training at the University of Arkansas for Medical Sciences/Arkansas Children’s Hospital. Prior to joining TrustCare, Dr. Phillippi practiced at Children’s Medical Group in Jackson, Mississippi, and spent time in Birmingham, Alabama. Dr. Phillippi is married to Dr. Mark Phillippi, a nephrologist at Central Nephrology Clinic.</small>
-                        <button className="learn-btn mb-3">About Me</button>
+                        <h1 className="text-primary fw-bold">Order food from the best Hungry-Naki website</h1>
+                        <small>Are you hungry? Did you have a long and stressful day? Interested in getting a food delivered to your office or looking to avoid the weekly shop? Then hungry-naki Bangladesh is the right destination for you! just offers you a long and detailed list of the best online delivered foods.</small>
+                        <button className="learn-btn mb-3">About Us</button>
                     </div>
                 </div>
+
                 {/* another area */}
                 <div className="row my-5 mx-auto" style={{ backgroundColor: "aquamarine" }}>
                     <div className="col-md-6 mt-4">
-                        <h2>Let Us Help You Feel Better Faster™</h2>
-                        <p>Our goal is to provide quality care, get you in and out within 1 hour, and help you Feel Better Faster™.</p>
+                        <h2>Let Us Help You Feel Better Faster Food Delivery™</h2>
+                        <p>Our goal is to provide quality food care, get you in and out within 1 hour.</p>
                     </div>
                     <div className="col-md-6 mb-5">
                         <button className="learn-btn">View Locations</button>

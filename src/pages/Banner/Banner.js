@@ -15,7 +15,7 @@ const Banner = () => {
                         <div className="banner1 d-flex  align-items-center ">
                             <div className="row container">
                                 <div className="col-md-8">
-                                    <h1 className="title">Welcome to Just Eat Takeaway</h1>
+                                    <h1 className="title">Welcome to Hungry Naki?</h1>
                                     <h2 className="title-sm">Empow­er­ing your every food moment</h2>
                                     <button className="learn-btn">Learn More</button>
                                 </div>

@@ -1,3 +1,6 @@
 .home-container{
     overflow: hidden;
 }
+.detail img{
+    width: 70%;
+}
