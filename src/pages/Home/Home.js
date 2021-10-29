@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import './Home.css';
 import detail from '../../images/home.jpg';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
@@ -15,13 +16,9 @@ const Home = () => {
                     <div className="col-md-12">
                         {/* service data load */}
                         <div className="row ms-4">
-                            {/* {
-                            services.slice(0, 6)?.map(service => <Service
-                                key={service.id}
-                                service={service}
-                            >
-                            </Service>)
-                        } */}
+                            {
+                                <Services></Services>
+                            }
                         </div>
                     </div>
                 </div>
