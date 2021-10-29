@@ -1,0 +1,57 @@
+.banner-container{
+  overflow: hidden;
+}
+
+.banner1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/banner/banner-1.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+.banner2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/banner/banner-2.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+.banner3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/banner/banner-3.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .title {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .title-sm {
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+  }
+  .learn-btn {
+    background-color:#3fc2cd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 40px;
+  }
