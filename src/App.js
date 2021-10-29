@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import NotFound from './pages/NotFound/NotFound';
+
 
 
 function App() {
@@ -16,6 +18,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
