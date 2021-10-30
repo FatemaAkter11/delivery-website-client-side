@@ -1,6 +1,6 @@
 # Hungry-Naki?
 
-This project was bootstrapped with [Create Trust Health Care](https://hungrynaki-f2c05.web.app/).
+This project was bootstrapped with [Create Hungry Naki?](https://hungrynaki-f2c05.web.app/).
 
 ## Description
 The information and services available may include inaccuracies or typographical errors. Changes are periodically added to the information herein. 'Hungrynaki' may make improvements and/or changes at any time. We do not warrant that our services will be uninterrupted or error-free, that defects will be corrected, that the site or the server that makes it available are free of viruses or other harmful components. 
