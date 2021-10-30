@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLocation } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 
 
@@ -10,6 +11,8 @@ const Login = () => {
         toggleLogin,
         handleRegistration,
         isLogin, error } = useAuth();
+
+
 
     return (
         <div>

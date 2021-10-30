@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
 import './Home.css';
 import detail from '../../images/home.jpg';
 import Services from '../Services/Services';
@@ -8,8 +7,6 @@ const Home = () => {
     return (
         <div>
             <div className="home-container">
-                {/*banner part */}
-                <Banner></Banner>
                 {/* services area*/}
                 <div className="row">
                     <h1 className="fw-bold fs-1 mb-5 mt-3">Our Services</h1>

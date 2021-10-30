@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({ service }) => {
@@ -16,16 +16,21 @@ const Service = ({ service }) => {
                         <Card.Text>{description}</Card.Text>
                     </Card.Body>
                     <Card.Body className="d-flex">
-                        <NavLink
-                            to={`/services/${_id}`}
-                            className="btn btn-primary w-100 me-1"
-                        >
-                            Order Place
-                        </NavLink>
+                        <Link to={`/orderplace/${_id}`}>
+                            <button className="btn btn-warning">Order {name.toLowerCase()}</button>
+                        </Link>
                     </Card.Body>
                 </Card>
             </div>
         </Col>
+        // <div className="service pb-3">
+        //     <img src={img} alt="" />
+        //     <h3>{name}</h3>
+        //     <p className="px-3">{description}</p>
+        //     <Link to={`/orderplace/${_id}`}>
+        //         <button className="btn btn-warning">Book {name.toLowerCase()}</button>
+        //     </Link>
+        // </div>
     );
 };
 
