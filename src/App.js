@@ -12,6 +12,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import OrderPlace from './pages/OrderPlace/OrderPlace';
 import Banner from './pages/Banner/Banner';
 import ManageOrder from './pages/ManageOrder/ManageOrder';
+import MyOrder from './pages/MyOrder/MyOrder';
 
 
 
@@ -30,8 +31,13 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+
             <Route path="/services">
               <Services></Services>
+            </Route>
+
+            <Route path="/myOrder">
+              <MyOrder></MyOrder>
             </Route>
 
             <Route path="/login">
