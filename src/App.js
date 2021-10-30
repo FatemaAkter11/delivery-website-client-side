@@ -11,6 +11,7 @@ import Services from './pages/Services/Services';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import OrderPlace from './pages/OrderPlace/OrderPlace';
 import Banner from './pages/Banner/Banner';
+import ManageOrder from './pages/ManageOrder/ManageOrder';
 
 
 
@@ -39,6 +40,10 @@ function App() {
 
             <PrivateRoute path="/orderplace/:serviceId">
               <OrderPlace></OrderPlace>
+            </PrivateRoute>
+
+            <PrivateRoute path="/manageOrder">
+              <ManageOrder></ManageOrder>
             </PrivateRoute>
 
             <PrivateRoute path="/addService">

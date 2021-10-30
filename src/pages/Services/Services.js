@@ -27,17 +27,7 @@ const Services = () => {
                 </Row>
             </Container>
         </div>
-        // <div id="services">
-        //     <h2 className="text-primary mt-5">Our services</h2>
-        //     <div className="service-container">
-        //         {
-        //             services.map(service => <Service
-        //                 key={service.id}
-        //                 service={service}
-        //             ></Service>)
-        //         }
-        //     </div>
-        // </div>
+
     );
 };
 
