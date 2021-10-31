@@ -36,16 +36,17 @@ function App() {
               <Services></Services>
             </Route>
 
-            <Route path="/myOrder">
-              <MyOrder></MyOrder>
-            </Route>
-
             <Route path="/login">
               <Login></Login>
             </Route>
 
             <PrivateRoute path="/orderplace/:serviceId">
               <OrderPlace></OrderPlace>
+            </PrivateRoute>
+
+
+            <PrivateRoute path="/myOrder">
+              <MyOrder></MyOrder>
             </PrivateRoute>
 
             <PrivateRoute path="/manageOrder">

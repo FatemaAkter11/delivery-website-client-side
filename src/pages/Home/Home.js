@@ -2,14 +2,20 @@ import React from 'react';
 import './Home.css';
 import detail from '../../images/home.jpg';
 import Services from '../Services/Services';
+import useAuth from '../../hooks/useAuth';
+import { Spinner } from 'react-bootstrap';
 
 const Home = () => {
+    const { isLoading } = useAuth();
+    if (isLoading) {
+        return <Spinner animation="border" variant="danger" />
+    }
     return (
         <div>
             <div className="home-container">
                 {/* services area*/}
                 <div className="row">
-                    <h1 className="fw-bold fs-1 mb-5 mt-3">Our Services</h1>
+                    <h1 className="fw-bold fs-1 mb-5 mt-3">Our Offerings</h1>
                     <div className="col-md-12">
                         {/* service data load */}
                         <div className="row ms-4">
